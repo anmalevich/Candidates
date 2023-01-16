@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d9910aa335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    
+        <header>
+            <div class="first_wrapper">
+                <div class="header_logo">
+                    <div class="candidates_label">
+                        <p>Лица</p> 
+                        <img src="candidates_lable.svg" alt="label"> 
+                        <p>Кандидаты</p>
+                    </div>
+                    <nav>
+                        <a href="#">Найти кандидата</a>
+                        <a href="#">Попасть в базу</a>
+                        <a href="#">О сервисе</a>
+                        <a href="#">Портал</a>
+                    </nav>
+                </div>
+                <div class="header_search">
+                    <div class="main_search">
+                        <input type="text" name="text" class="search" placeholder="Поиск">
+                        <button class="search_button" type="submit"> <img src="search.svg" alt="Search"></button>
+                    </div>
+                </div>
+                <!-- <div>
+                <button class="search_mobile" type="submit"> <img src="search.svg" alt="Search"></button>
+                </div>  -->
+                <div class="dropdown">
+                    <div class="dropdown_img">
+                        <a href="#profile_popup" class="profile_name">Иннокентий</a>
+                        <a class="innokentii" href="#"><img src="icon.svg" alt="icon"></a> 
+                    </div>
+                    <div class="dropdown-content">
+                    <a href="#">Посмотреть профиль</a>
+                    <a href="#">Выйти</a>
+                    </div>
+                </div>
+                 <div class="navbar" id="navbar">
+                    
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    
+                </div>
+            </div> 
+        </header>
+
+        <div id="profile_popup" class="profile_popup">
+            <div class="profile_popup_body">
+                <div class="profile_popup_content">
+                    <div class="profile_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="profile_popup_content_title">Получить доступ к базе <br> проверенных кандидатов</p>
+                    <p class="profile_popup_content_email_title">Email</p>
+                    <form class="profile_popup_content_email">
+                        <input type="email" name="email" >
+                    </form>
+                    <p class="profile_popup_content_password_title">Пароль</p>
+                    <form class="profile_popup_content_password">
+                        <input type="password" >
+                    </form>
+                    <p class="profile_popup_content_forgot_password">Забыли пароль?</p>
+                    <div class="profile_popup_buttons">
+                        <a href="#">Войти</a>
+                        <a href="#registration_popup">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div id="registration_popup" class="registration_popup">
+            <div class="registration_popup_body">
+                <div class="registration_popup_content">
+                    <div class="registration_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="registration_popup_content_title">Регистрация</p>
+                    <p class="registration_popup_content_name_title">Имя<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input type="text" name="username" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Email</p>
+                    <form class="registration_popup_content_name">
+                        <input type="email" name="email" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Пароль<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input type="password" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Повторите пароль</p>
+                    <form class="registration_popup_content_name">
+                        <input type="password" >
+                    </form>
+                   
+                    <div class="registration_popup_button">
+                        <a href="#">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <section class="hr">
+            <hr class="line">
+        </section>
+        <section class="categories">
+            <div class="categories_main">
+                <a href="#">Маркетологи</a>
+                <a href="#">Backend-разработчики</a>
+                <a href="#">Дизайнеры</a>
+                <a href="#">Менеджеры по продажам</a>
+                <a href="#">Ещё</a>
+            </div>
+        </section>
+        
+        <section class="menu">
+            <p class="menu_title">Нанимайте проверенных</p>
+            <p class="menu_title_yellow">кандидатов</p>
+            <p class="menu_text">Мы уже со всеми провели собеседования <br> и подтверждаем их профессионализм</p>
+            <div class="menu_buttons">
+                <a class="menu_button_selected" href="#">Выбрать кандидата</a>
+                <a href="#">Попасть в базу</a>
+            </div>
+        </section>
+
+        <section class="directions">
+            <p class="directions_title">Выберите направление работы</p>
+            <div class="direction_cards">
+                <div class="direction_card_pages">
+                    <div class="direction_card_styled">
+                        <img src="Marketing.svg" alt="Marketing">
+                        <p>Маркетинг</p>
+                    </div>
+                    <img class="forty" src="40+.svg" alt="pages">
+                </div>
+                <div class="direction_card_pages">
+                    <div class="direction_card_styled">
+                        <img src="Development.svg" alt="Development">
+                        <p>Разработка</p>
+                    </div>
+                    <img class="eighty" src="80+.svg" alt="pages">
+                </div>
+                <div class="direction_card">
+                    <img src="Analytics.svg" alt="Analytics">
+                    <p>Аналитика</p>
+                </div>
+                <div class="direction_card">
+                    <img src="User group.svg" alt="Usergroup">
+                    <p>Комьюнити</p>
+                </div>
+            </div>
+            <div class="direction_cards2">
+                <div class="direction_card">
+                    <img src="Design.svg" alt="Design">
+                    <p>Дизайн</p>
+                </div>
+                <div class="direction_card">
+                    <img src="Sales.svg" alt="Sales">
+                    <p>Продажи</p>
+                </div>
+                <div class="direction_card">
+                    <img src="Content.svg" alt="Content">
+                    <p>Контент</p>
+                </div>
+                <div class="direction_card">
+                    <img src="Management.svg" alt="Management">
+                    <p>Топ-менеджмент</p>
+                </div>
+            </div> 
+        </section>
+
+        <section class="about">
+            <div class="about_white_block">
+                <p class="about_white_title">Почему работодатели <br> выбирают ЛИЦА?</p>
+                <p class="about_white_main_title">Проверка компетенций</p>
+                <p class="about_white_main">Всех кандидатов с нашей стороны собеседуют <br> не рекрутера, а эксперты в своих областях. <br>
+                    По результаты мы составляем справку <br>о кандидате, чтобы вы могли узнать его лучше.</p>
+                <p class="about_white_main_title">Сотни кандидатов по подписке</p>
+                <p class="about_white_main">Вы сможете самостоятельно связываться <br>
+                    с кандидатами – все они дали согласие на это.</p>
+                <p class="about_white_main_title">Еженедельное обновление базы</p>
+                <p class="about_white_main">В рамках сервиса ЛИЦА.Работа мы проводим <br>
+                    по несколько десятков собеседований <br> еженедельно, и пополняем базу новыми <br> справками по лучшим кандидатам.</p>
+            </div>
+            <div class="about_yellow_block">
+                <p class="about_yellow_title1">Кандидаты по подписке</p>
+                <p class="about_yellow_title2">4900 ₽ в месяц</p>
+                <p class="about_yellow_main">В 10-100 раз ниже стоимости любого подбора</p>
+                <a class="about_yellow_link" href="#">Выбрать кандидата</a>
+                <p class="about_yellow_price">4 900</p>
+            </div>
+        </section>
+
+        <section class="base_of_candidates">
+            <p class="base_title">Как выглядит база кандидатов</p>
+            <div class="base">
+                <div class="candidate">
+                    <div class="job_type">
+                        <p class="remote_job">part-time</p>
+                        <p class="office_job">full-time</p>
+                    </div>
+                    <img src="Vladimir.jpg" alt="Vladimir">
+                    <div class="candidate_main_info">
+                        <p class="candidate_title">Анциферов Владимир</p>
+                        <p class="candidate_main">Директор по маркетингу </p>
+                    </div>
+                    <div class="candidate_aditional">
+                        <p class="candidate_experience">Опыт: более 13 лет</p>
+                        <p class="candidate_salary">Зарплата: 200 тыс. ₽</p>
+                    </div>
+                    <a href="#">Посмотреть справку</a>
+                </div>
+                <div class="candidate">
+                    <p class="office_job">full-time</p>
+                    <img src="Anna.jpg" alt="Anna">
+                    <div class="candidate_main_info">
+                        <p class="candidate_title">Сикорская Анна</p>
+                        <p class="candidate_main">Аналитик</p>
+                    </div>
+                    <div class="candidate_aditional">
+                        <p class="candidate_experience">Опыт: более 13 лет</p>
+                        <p class="candidate_salary">Зарплата: от 150 тыс. ₽</p>
+                    </div>
+                    <a href="#">Посмотреть справку</a>
+                </div>
+                <div class="candidate">
+                    <div class="job_type">
+                        <p class="remote_job">part-time</p>
+                        <p class="office_job">full-time</p>
+                    </div>
+                    <img src="Daria.jpg" alt="Daria">
+                    <div class="candidate_main_info">  
+                        <p class="candidate_title">Демидова Дарья</p>
+                        <p class="candidate_main">Брендмейкер</p>
+                    </div>
+                    <div class="candidate_aditional">
+                        <p class="candidate_experience">Опыт: более 10 лет</p>
+                        <p class="candidate_salary">Зарплата: от 100 тыс. ₽</p>
+                    </div>
+                    <a href="#">Посмотреть справку</a>
+                </div>
+                <div class="candidate">
+                    <p class="office_job">full-time</p>
+                    <img src="Evgenii.jpg" alt="Evgenii">
+                    <div class="candidate_main_info">  
+                        <p class="candidate_title">Харисов Евгений</p>
+                        <p class="candidate_main">Директор по развитию бизнеса</p>
+                    </div>    
+                    <div class="candidate_aditional">
+                        <p class="candidate_experience">Опыт: более 20 лет</p>
+                        <p class="candidate_salary">Зарплата: от 150 тыс. ₽</p>
+                    </div>
+                   <a href="#">Посмотреть справку</a>
+                </div>
+            </div>
+       </section>
+
+       <section class="form_block">
+        <img class="form_block_img" src="form img.svg" alt="form picture">
+        
+        <div class="form_block_content">
+            <div class="form">
+                <div class="form_text">
+                    <p class="form_title">Подписаться на обновления базы</p>
+                    <p class="form_main">Мы будет присылать вам информацию каждую неделю, <br>
+                        по каким сферам у нас появились кандидаты.</p>
+                 </div>
+                <form class="form_atributes">
+                    <input class="form_content"  name="text" type="text" placeholder="Ваше имя">
+                    <input class="form_content"name="email" type="email" placeholder="Email">
+                    <input class="form_content" name="tel" type="tel" placeholder="Номер телефона">
+                </form>
+                <a class="subscribe" href="#subscribe_popup">Подписаться</a>
+            </div>
+            <div class="form_footer">
+                <p>Отправка данной формы означает согласие с Пользовательским соглашением и Политикой конфиденциальности</p>
+            </div>
+        </div>
+    
+        <div id="subscribe_popup" class="subscribe_popup">
+            <div class="subscribe_popup_body">
+                <div class="subscribe_popup_content">
+                    <div class="subscribe_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="subscribe_popup_content_title">Вы открыли контакты <br> кандидата – теперь вы сможете <br> с ним связаться и обсудить <br> сотрудничество</p>
+                   
+                    <div class="subscribe_popup_buttons">
+                        <a href="#">Закрыть</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        </section>
+        <footer>
+            <div class="footer_wrapper">
+                <div class="links_localization">
+                    <div class="footer_column">
+                        <p>ЛИЦА.КАНДИДАТЫ</p>
+                        <a href="#">Найти кандидата</a>
+                        <a href="#">Попасть в базу</a>
+                        <a href="#">О сервисе</a>
+                    </div>
+                    <div class="footer_column">
+                        <p>ЛИЦА.РАБОТА</p>
+                        <a href="#">Рекрутинг</a>
+                        <a href="#">Конструктор подбора</a>
+                        <a href="#">Аналитика подбора</a>
+                    </div>
+                    <div class="footer_column">
+                        <p>O ПОРТАЛЕ</p>
+                        <a href="#">Поддержка</a>
+                        <a href="#">Обновления</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+                <div>
+                    <hr class="line">
+                    <div class="social_links">
+                        <p>ООО «ЛИЦА»</p>
+                        <div class="copyright">
+                            <a href="#">Реквизиты</a>
+                            <a href="#">Правовая информация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+    
+</body>
+</html>
